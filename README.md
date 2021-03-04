@@ -8,17 +8,17 @@ The scientific literature says that AES 256 should not be broken from Quantum pr
 AES uses at the maximum, 256 bits keys. On the hidden side, there are leaked information reporting how the most powerful governments developed their own algorithms with higher security, reaching for sure at least 512 bits.  
 Many cyber experts state that increasing the number of bits will slow down the communication protocols at the point that could become impossible to make a simple video call and it would be necessary a specific new algorithm to increase the security keeping the same speed for execution.  
 It looks that we, as common human beings, should continue to use AES-256 with peace of mind.   
-Inventing a new algorithm, you need to verify it very well. An activity that takes years of crypto-analysis from different experts before to be considered safe.  
-I never waits quietly for the storm in sight so I started to wonder how I could improve the security level without inventing a new encryption algorithm gaining time in the race with quantum processors.  
+After inventing a new algorithm, you need to verify it very well. It will takes years of crypto-analysis by different experts, before to be considered safe.  
+I never waits quietly for the storm in sight, so I started to wonder how I could improve the security level without inventing a new encryption algorithm. 
 
 ## Fundamentals
 
-The modern phones and computers are so fast that you can apply 3 layers of encryption without visible delay even for real time protocols like those used for video/audio calls. 
-I had direct experience making this product, [https://www.kryptophone.ae](https://www.kryptophone.ae) which has a specific version using 3 layers of symmetric encryption.  
-I started to apply in different scenarios multiple encryption layers using longer keys and different algorithms, at least if one algorithm is broken algebraically, the others are could still guarantee the safety.  
+The modern phones and computers are so fast that you can apply 3 layers of encryption without visible delay, even for real time protocols, like those used for video/audio calls. 
+I had direct experience making this product, [https://www.kryptophone.ae](https://www.kryptophone.ae) which has a specific version using 3 layers of symmetric encryption and perfect video/audio quality.    
+I started to apply in different scenarios, multiple encryption layers using longer keys and different algorithms, at least if one algorithm is broken algebraically, the others could still guarantee the safety.  
 If you make a direct comparison in term of Mbits/ throughput, AES-256 always wins against a 3 layers encryption, anyway the important point are the visible effects in the user experience and nobody can see the difference between 1 layers or 3 layers even in a real time video call.  
 
-So with Cryptolandi (or Cryptoland if you prefer), what the code does is:
+Cryptolandi (or Cryptoland if you prefer), makes the following:
 
 - Each file is encrypted initially by AES 256 bit.
 - The encrypted file with AES 256 is encrypted again by Chacha20 256 bit.
