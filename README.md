@@ -31,6 +31,7 @@ This is not a new encryption algorithm, it's a smart application of well-known e
 - This program uses temporary files to make the multiple encryption that are removed at the completion of the process.
 - The speed even with big files is very high, I've encrypted 10 GB in 18 seconds in a 8 core machine and Flash memory as storage, not bad right?
 - The variables are overwritten with 0x0 before closing the program.
+- AES-256 make use of GCM chaining method, a TAG of 16 bytes is generated and used to verify the consistency of the decryption by this signature (HCMAC).  
 
 ## How to build
 This utility works on Linux and it has been tested on Debian 10 and Raspberry OS.
