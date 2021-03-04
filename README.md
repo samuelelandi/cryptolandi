@@ -8,8 +8,8 @@ The scientific literature says that AES 256 should not be broken from Quantum pr
 AES uses at the maximum, 256 bits keys. On the hidden side, there are leaked information reporting how the most powerful governments developed their own algorithms with higher security, reaching for sure at least 512 bits.
 Many cyber experts state that increasing the number of bits will slow down the communication protocols at the point that could become impossible to make a simple video call and it would be necessary a specific new algorithm to increase the security keeping the same speed for execution.
 It looks that we, as common human beings, should continue to use AES-256 with peace of mind.  
-Inventing a new algorithm, you need to verify it very well, an activity that takes years of crypto-analysis from different experts to be considerate safe.  
-I never waits quietly for the storm in sight so I started to wonder how I could improve the security level without inventing a new encryption algorithm to gain time in the race with quantum processors. 
+Inventing a new algorithm, you need to verify it very well. An activity that takes years of crypto-analysis from different experts before to be considered safe.
+I never waits quietly for the storm in sight so I started to wonder how I could improve the security level without inventing a new encryption algorithm gaining time in the race with quantum processors. 
 
 ## Fundamentals
 
