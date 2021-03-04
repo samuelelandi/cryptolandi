@@ -3,13 +3,13 @@
 Cryptolandi encrypts/decrypts files for the highest security level with 768 bits symmetric encryption.  
 
 ## Preface
-Quantum processors are in sight and the whole civil society is still using AES, an algorithm invented more than 20 years ago.    
+Quantum processors are in sight and the whole civil society is still using AES, an algorithm invented more than 20 years ago.  
 The scientific literature says that AES 256 should not be broken from Quantum processors, I would not be so sure.  
-AES uses at the maximum, 256 bits keys. On the hidden side, there are leaked information reporting how the most powerful governments developed their own algorithms with higher security, reaching for sure at least 512 bits.
-Many cyber experts state that increasing the number of bits will slow down the communication protocols at the point that could become impossible to make a simple video call and it would be necessary a specific new algorithm to increase the security keeping the same speed for execution.
-It looks that we, as common human beings, should continue to use AES-256 with peace of mind.  
-Inventing a new algorithm, you need to verify it very well. An activity that takes years of crypto-analysis from different experts before to be considered safe.
-I never waits quietly for the storm in sight so I started to wonder how I could improve the security level without inventing a new encryption algorithm gaining time in the race with quantum processors. 
+AES uses at the maximum, 256 bits keys. On the hidden side, there are leaked information reporting how the most powerful governments developed their own algorithms with higher security, reaching for sure at least 512 bits.  
+Many cyber experts state that increasing the number of bits will slow down the communication protocols at the point that could become impossible to make a simple video call and it would be necessary a specific new algorithm to increase the security keeping the same speed for execution.  
+It looks that we, as common human beings, should continue to use AES-256 with peace of mind.   
+Inventing a new algorithm, you need to verify it very well. An activity that takes years of crypto-analysis from different experts before to be considered safe.  
+I never waits quietly for the storm in sight so I started to wonder how I could improve the security level without inventing a new encryption algorithm gaining time in the race with quantum processors.  
 
 ## Fundamentals
 
@@ -29,11 +29,12 @@ This is not a new encryption algorithm, it's a smart application of well-known e
 - The main weakness may be the password that you will supply for the encryption, your security is in your hands.  The password is hashed by sha3-512 bits algorithm, thousands up to millions of times to expand it and derive the required 768 bits key (3 keys of 256 bits).
 - The Init Vectors (IV) required from the algorithm are generated randomly because they must be always different, and they are stored at the bottom of the encrypted file. The size of the encrypted file is a bigger of 64 bytes compared to the file of origin.  
 - This program uses temporary files to make the multiple encryption that are removed at the completion of the process.
-- The speed even with big files is very high, I've encrypted 10 GB in 18 seconds in a 8 core machine and Flash memory as storage (not bad right?)
+- The speed even with big files is very high, I've encrypted 10 GB in 18 seconds in a 8 core machine and Flash memory as storage, not bad right?
+- The variables are overwritten with 0x0 before closing the program.
 
 ## How to build
 This utility works on Linux and it has been tested on Debian 10 and Raspberry OS.
-install the required libraries:
+install the required libraries and compilers:
 ```bash 
 ./setup.sh
 ```  
