@@ -11,14 +11,14 @@ It looks that we, as common human beings, should continue to use AES-256 with pe
 Someone could try to invent a new algorithm, in this case we need to verify it very well with the contribution of many researcher and years of serious work.  
 This is a serious way to improve the security level of files encryption increasing the key size and trusting the strenght and reliability of multiple well known algorithms.
 
-## Fundamentals
+## General Info
 
 The modern phones and computers are so fast that you can apply 3 layers of encryption without visible delay, even for real time protocols, like those used for video/audio calls. 
 I had direct experience making this product, [https://www.kryptophone.ae](https://www.kryptophone.ae) which has a specific version using 3 layers of symmetric encryption and perfect video/audio quality.    
 I've applied multiple encryption layers using longer keys and different algorithms, at least if one algorithm is broken algebraically, the others could still guarantee the safety.  
 If you make a direct comparison in term of Mbits/ throughput, AES-256 always wins against a 3 layers encryption, anyway the important point are the visible effects in the user experience and nobody can see the difference between 1 layers or 3 layers even in a real time video call.
 
-
+## How it works
 Cryptolandi (or Cryptoland if you prefer), makes the following:
 
 - Each file is encrypted initially by AES 256 bit.
