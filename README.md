@@ -29,7 +29,7 @@ This is not a new encryption algorithm, it's a smart application of well-known e
 
 - The main weakness may be the password that you will supply for the encryption, your security is in your hands.  The password is hashed by sha3-512 bits algorithm, thousands up to millions of times to expand it and derive the required 768 bits key (3 keys of 256 bits).
 - The Init Vectors (IV) required from the algorithm are generated randomly because they must be always different, and they are stored at the bottom of the encrypted file. The size of the encrypted file is a bigger of only 64 bytes compared to the file of origin.  
-- This program uses temporary files to make the multiple encryption that are removed at the end of the process.
+- This program uses temporary files that are removed at the end of the process.
 - The speed even with big files is very high, I've encrypted 10 GB in 18 seconds in a 8 core machine and Flash memory as storage, not bad right?
 - The variables are overwritten with 0x0 before closing the program.
 - AES-256 make use of GCM chaining method, a TAG of 16 bytes is generated and used to verify the consistency of the decryption by this signature (HMAC).  
