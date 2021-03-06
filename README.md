@@ -9,7 +9,7 @@ AES uses at the maximum, 256 bits keys. On the hidden side, there are leaked inf
 Many cyber experts state that increasing the number of bits will slow down the communication protocols at the point that could become impossible to make a simple video call and it would be necessary a specific new algorithm to increase the security keeping the same speed for execution.  
 It looks that we, as common human beings, should continue to use AES-256 with peace of mind.   
 Someone could try to invent a new algorithm, in this case we need to verify it very well with the contribution of many researcher and years of serious work.  
-This is a serious way to increase the security level of file encryption increasing the keys size and  using the strentght and reliability of multiple well known algorithms.
+This is a serious way to improve the security level of files encryption increasing the key size and trusting the strenght and reliability of multiple well known algorithms.
 
 ## Fundamentals
 
