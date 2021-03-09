@@ -35,8 +35,8 @@ This is not a new encryption algorithm, it's a smart application of well-known e
 - AES-256 make use of GCM chaining method, a TAG of 16 bytes is generated and used to verify the consistency of the decryption by this signature (HMAC).  
 
 ## How to build
-This utility works on Linux and it has been tested on Debian 10 and Raspberry OS.
-install the required libraries and compilers:
+This utility works on Linux and it has been tested on Debian 10 and Raspberry OS.  
+Install the required libraries and compilers:
 ```bash 
 ./setup.sh
 ```  
