@@ -5,11 +5,11 @@ Cryptolandi encrypts/decrypts files for the highest security level with 768 bits
 ## Preface
 Quantum processors are in sight and the whole civil society is still using AES, an algorithm invented more than 20 years ago.  
 The scientific literature says that AES 256 should not be broken from Quantum processors, I would not be so sure.  
-AES uses at the maximum, 256 bits keys. On the hidden side, there are leaked information reporting how the most powerful governments developed their own algorithms with higher security, reaching for sure at least 512 bits.  
-Many cyber experts state that increasing the number of bits will slow down the communication protocols at the point that could become impossible to make a simple video call and it would be necessary a specific new algorithm to increase the security keeping the same speed for execution.  
+AES uses at the maximum keys with 256 bit lenght. On the hidden side, there are leaked information reporting how the most powerful governments developed their own algorithms with higher security, reaching for sure at least 512 bits.  
+Many cyber experts state that increasing the number of bits would slow down the communication protocols at the point that could become impossible to make a simple video call and it would be necessary a specific new algorithm to increase the security keeping the same speed for execution.  
 It looks that we, as common human beings, should continue to use AES-256 with peace of mind.   
 Someone could try to invent a new algorithm, in this case we need to verify it very well with the contribution of many researcher and years of serious work.  
-This is a serious way to improve the security level of files encryption increasing the key size and trusting the strenght and reliability of multiple well known algorithms.
+This application is instead a smart way to improve the security level of files encryption, increasing the key size and trusting the strenght and reliability of multiple well known algorithms.
 
 ## General Info
 
